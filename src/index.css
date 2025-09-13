@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+body { font-family: 'Montserrat', ui-sans-serif, system-ui; }
+
+/* Scroll fluido per tutti */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Rispetto accessibilità: se l’utente ha ridotto animazioni */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
